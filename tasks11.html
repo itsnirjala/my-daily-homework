@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-image:url("/storage/emulated/0/Fullstack/Hgh.jpg");
+	}
+	{box-sizing: border-box}
+input[type=text], input[type=password] {
+   width:100%;
+   font-size:29;
+   padding: 10px;
+   margin: 5px  22px ;
+   display: inline-block;
+   border: none;
+   background: #E3DFFD
+}
+label{
+   font-size: 20px;
+}
+input[type=text]: focus,input[type=password]: focus,{
+   background-color: #6096B4;
+   outline: none;
+}
+hr {
+   border: 3px solid #698269;
+   margin-bottom: 25px;
+}
+button {
+   font-size: 20px;
+   font-weight: bold;
+   background-color: #609EA2;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   width: 100%;
+   }
+.cancel {
+   padding: 10px 20px;
+   background-color: #BFACE2;
+   }
+</style>
+<body>
+<form>
+<h1>Sign Up Form</h1>
+<hr>
+<label type="email"><b>Email</b></label>
+<input type="text"  placeholder="Enter the email"name="email" required>
+<label type="password"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="password" required>
+<label type="repeatPassword"><b>Repeat Password</b></label>
+<input type="password" placeholder="Repeat Password" name="repeatPassword"required>
+<label><input type="checkbox" name="checked" value="agree"> Are you agree?</label>
+<div>
+<button type="button" class="cancel">Cancel</button>
+<a href="task12.html"><button type="submit" class="signup">Sign Up</button></a>
+</div>
+</form>
+</body>
+</html>
